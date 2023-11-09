@@ -1,3 +1,18 @@
+# REST API by Alex Jurgens
+This is the basic rest API built using Node, Express, and sequelize/postgres.  This shows a general file structure for the project as well as basic functionality with some comments of what might be done in the future.
+
+## Notes
+You will need to have postgress and sequelize installed to make this work.
+
+There are config files not included in the repo on purpose.  For example, you may need to include a .env file that looks like 
+```
+REST_PORT=3000
+DATABASE=EnergySageInterview
+DATABASE_USER=<the username you created the DB with>
+DATABASE_PASSWORD=<password>
+ERASE_DB_ON_RESTART=true
+```
+
 # Building a REST API
 
 For this technical interview, you will build a server application that has a data model and a REST API. You can use (and are encouraged to use) a common backend framework or frameworks to make this easier. You are not necessarily expected to finish this in the time given.
