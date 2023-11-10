@@ -32,7 +32,7 @@ const getPropertyAddressModel = (sequelize, { DataTypes }) => {
       validate: {
         notEmpty: true,
         is: ["^[0-9]+"],
-        length: 5,
+        len: 5,
       },
     },
   });
